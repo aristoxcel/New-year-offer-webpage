@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;800;900&family=Merriweather:wght@300;400;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', serif;
+}
+
+.heading_std{
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    width: 632px;
+}
+
+.pera_std{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    line-height: 30px; 
+    width: 700px;
+}
+
+.common_head{
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.common_pera{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    line-height: 32px;
+    width: 896px;
+    margin: 22px auto 48px;
+}
+
+.common_title{
+        color: #F00;
+        font-family: 'Inter', sans-serif;
+        font-size: 24px;
+        font-weight: 500;
+        margin-bottom: 16px;  
+}
+
+/* Header start here */
+
+.banner{
+    width: 83%;
+    max-width: 1320px;
+    height: 600px;
+    margin: 0 auto;
+    background-image: url('asset/Banner Image.png');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner >h2{
+    color: rgba(235, 25, 25, 0.868);
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.danger{
+    color: rgba(0, 128, 128, 0.8);
+}
+
+/* holy deal start */
+.holyday_deal{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin: 120px auto;
+    align-items: center;
+}
+
+.holyday_deal .head_deal{
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+
+.holyday_deal>p{
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 16px auto;
+}
+
+.holyday_deal .title{
+    color: #070211;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+
+/* welcome party section */
+.welcome_party{
+    width: 1320px;
+    height: 600px;
+    background-image: url('asset/Vectorrr.png');
+    margin: 0 auto;
+}
+
+.welcome_party .party_inside{
+    margin: 0px 138px 0px 126px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.party_inside>.party_detail{
+    position: relative;
+}
+
+.party_detail>h1{
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    margin-bottom: 24px;
+    margin-top: 126px;
+}
+
+.join_btn{
+    margin-top: 48px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: fit-content;
+    margin-left: 40px;
+    background-color: transparent;
+    border: 0;
+}
+
+.party_inside>.party_img{
+    position: relative;
+}
+.party_img >img{
+    margin-top: 68px;
+}
+
+/* Best offer section */
+.best_offer{
+    width: 83%;
+    max-width: 1320px;
+    display: flex;
+    justify-content: space-between;
+    margin: 120px auto;
+}
+
+.best_offer_come{
+    align-items: center;
+    justify-content: center;
+    margin: auto 0;
+}
+
+.best_offer_come>.take_side{
+    text-align: left;
+    width: 393px;
+}
+
+.best_offer_year>.take_aside{
+    width: 276px;
+    text-align: left;
+    margin:16px auto 48px;
+}
+
+.best_offer_year>h2{
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.best_offer_year{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.best_offer_year>img{
+    width: 140px;
+    height: 140px;
+}
+
+.best_offer_image>img{
+    border-radius: 463px;
+    border: 15px solid #F00;
+    padding: 34px;
+}
+
+/* Portfolio section */
+
+#portfolio{
+    width: 1320px;
+    margin: 120px auto;
+}
+
+
+#portfolio>h2, #portfolio>p{
+    text-align: left;
+    margin-left: 0;
+}
+
+.portfolio_img{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.portfolio_img >img{
+    width: 424px;
+    height: 450px;
+    border-radius: 16px;
+}
+
+.portfolio_img>img:hover{
+    box-sizing: border-box;
+    border: 2px solid pink;
+    box-shadow: 0 0 12px 5px teal ;
+}
+
+/* Subscribe section start */
+.subscribe{
+    width: 1320px;
+    height: 616px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subscribe>img{
+    width: 150px;
+    height: 150px;
+    margin: 80px auto 40px;
+}
+
+.subscribe>form input[type="email"]{
+    height: 72px;
+    width: 438px;
+    border-radius: 50px 0px 0px 50px;
+    border: 0;
+    margin-right: 0px;
+    color: rgba(7, 2, 17, 0.30);
+    padding-left: 40px;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+}
+
+.subscribe>form input[type="submit"]{
+    height: 72px;
+    width: 210px;
+    border-radius: 0px 50px 50px 0px;
+    margin-left: 0px;
+    background: #F00;
+    border: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* footer start here */
+footer{
+    background: #070211;
+    width: 100%;
+    height: 610px;
+    margin-top: 120px;
+}
+
+
+#footer_box{
+    width: 1320px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+
+.footer_head{
+    display: flex;
+    justify-content: space-between;
+    margin: 120px 135px 0px 0px;
+}
+
+#foot_add{
+    width: 375px;
+}
+
+.footer_body{
+    display: flex;
+    justify-content: center;
+}
+
+.footer_body>img{
+    width: 64px;
+    height: 64px;
+}
+
+.address{
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.strait_line{
+    width: 100%;
+    color: rgba(255, 255, 255, 0.15);
+    margin: 50px auto;
+}
+
+.footer_tail{
+    display: flex;
+    justify-content: space-between;
+}
+.btn_footer{
+    background-color: transparent;
+    border: 0;
+}
